@@ -12,3 +12,4 @@ G:\Code\code39\obj\Debug\net8.0\refint\code39.dll
 G:\Code\code39\obj\Debug\net8.0\code39.pdb
 G:\Code\code39\obj\Debug\net8.0\code39.genruntimeconfig.cache
 G:\Code\code39\obj\Debug\net8.0\ref\code39.dll
+G:\Code\code39\obj\Debug\net8.0\code39.sourcelink.json
