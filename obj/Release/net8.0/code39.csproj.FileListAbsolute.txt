@@ -1,0 +1,14 @@
+G:\Code\code39\bin\Release\net8.0\code39.exe
+G:\Code\code39\bin\Release\net8.0\code39.deps.json
+G:\Code\code39\bin\Release\net8.0\code39.runtimeconfig.json
+G:\Code\code39\bin\Release\net8.0\code39.dll
+G:\Code\code39\bin\Release\net8.0\code39.pdb
+G:\Code\code39\obj\Release\net8.0\code39.GeneratedMSBuildEditorConfig.editorconfig
+G:\Code\code39\obj\Release\net8.0\code39.AssemblyInfoInputs.cache
+G:\Code\code39\obj\Release\net8.0\code39.AssemblyInfo.cs
+G:\Code\code39\obj\Release\net8.0\code39.csproj.CoreCompileInputs.cache
+G:\Code\code39\obj\Release\net8.0\code39.dll
+G:\Code\code39\obj\Release\net8.0\refint\code39.dll
+G:\Code\code39\obj\Release\net8.0\code39.pdb
+G:\Code\code39\obj\Release\net8.0\code39.genruntimeconfig.cache
+G:\Code\code39\obj\Release\net8.0\ref\code39.dll

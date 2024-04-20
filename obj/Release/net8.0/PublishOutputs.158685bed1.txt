@@ -1,0 +1,5 @@
+G:\Code\code39\bin\Release\net8.0\publish\code39.exe
+G:\Code\code39\bin\Release\net8.0\publish\code39.dll
+G:\Code\code39\bin\Release\net8.0\publish\code39.deps.json
+G:\Code\code39\bin\Release\net8.0\publish\code39.runtimeconfig.json
+G:\Code\code39\bin\Release\net8.0\publish\code39.pdb
