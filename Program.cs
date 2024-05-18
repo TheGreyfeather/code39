@@ -1,33 +1,41 @@
-﻿using System;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Code39;
 public class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
+        string output;
         while (true)
         {
             Console.WriteLine("Input the string you want to convert to code39");
-            string? input = "*" + Console.ReadLine() + "*";
-
-            string output;
-
+            string? input = Console.ReadLine();
             if (string.IsNullOrEmpty(input))
             {
-                throw new ArgumentException("Input Cannot Be Empty!");
+                Console.WriteLine("Input Cannot Be Empty!");
+                continue;
             }
-            if (!Regex.IsMatch(input.ToUpper(), @"^(?:[*A-Z.\- \d])*$"))
+            input = input.ToUpper();
+            MatchCollection BadChars = Regex.Matches(input, @"(?:[^A-Z.\- \d\s*])");
+            if (BadChars.Count > 0)
             {
-                throw new ArgumentException("Input cannot contain Invalid Characters!");
+                string badLocIndicator = string.Empty;
+                Console.WriteLine("Input: " + input);
+                Console.WriteLine($"Invalid Character(s) at: ");
+                //for (int i = 0; i < input.Length; i++)
+                foreach(Match match in BadChars)
+                {
+                    Console.WriteLine(match.Index + ": " + match.Value);
+                }
+                Console.WriteLine(badLocIndicator);
+                continue;
             }
             else
             {
-                output = Code39.Convert(input.ToUpper());
+                output = Code39.Convert('*' + input + '*');
+                Console.WriteLine();
+                Console.WriteLine(output);
             }
-            Console.WriteLine();
-            Console.WriteLine(output);
             Console.WriteLine();
         }
     }
