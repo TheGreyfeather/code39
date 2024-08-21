@@ -5,8 +5,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <PackageSingleFile>true</PackageSingleFile>
     <SelfContained>true</SelfContained>
+    <PublishAot>true</PublishAot>
     <PublishTrimmed>true</PublishTrimmed>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  
+  <PropertyGroup>
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+
+  
 
 </Project>
