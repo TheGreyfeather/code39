@@ -23,4 +23,4 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet publish --configuration Release --no-restore --artifacts-path ~/${{matrix.os}}
+      run: dotnet publish --configuration Release --artifacts-path ~/${{matrix.os}}
